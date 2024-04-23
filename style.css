@@ -284,3 +284,71 @@ h2 {
 .timer {
   font-weight: 600;
 }
+.operation {
+  max-width: 362px;
+  /* margin: auto; */
+  margin-bottom: 10px;
+}
+@media (max-width: 900px){
+  .navigation{
+    align-items: start;
+    flex-direction: column;
+  }
+  .navigation img{
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 980px){
+  .app{
+    display: inline;
+  }
+
+}
+@media (max-width: 710px){
+  .summary{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+  }
+  .btn--sort{
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+
+}
+
+@media (max-width: 486px){
+  .balance{
+flex-direction: column;
+margin-top: 20px;
+  }
+}
+@media (max-width: 430px){
+  .login{
+    flex-direction: column;
+margin: auto;
+align-items: center;
+  }
+  .login__btn{
+    min-width: 120px;
+  }
+  .login p{
+    margin-bottom: 10px;
+  }
+  .login input{
+    margin-right: 0px;
+    margin-bottom: 10px;
+    
+  }
+  .login button{
+    margin-bottom: 10px;
+  }
+  .movements__row{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .movements__value{
+    margin: 0;
+  }
+}
